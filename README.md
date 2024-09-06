@@ -1,8 +1,8 @@
 <h1 align="center">Bem-Vindo ao meu Perfil! :star2: </h1>
-<img align="center"> ![flatage.gif](https://postimg.cc/JyhWR6yR) </img>
+![Mario.gif](img/flatage.gif)
 <br>
 <h2 align="center"> Estudante de Ciencia da Computação - UNIMAR :books: </h2>
-[Email](mailto:raulmab@gmail.com)
+![Email](mailto:raulmab@gmail.com)
 <!--
 **Raul-Mozart/Raul-Mozart** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
