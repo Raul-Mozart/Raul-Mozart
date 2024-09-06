@@ -1,7 +1,7 @@
 <h1 align="center">Bem-Vindo ao meu Perfil! :star2: </h1>
 <div align="center">
   
-![flatage.gif](https://i.postimg.cc/HLwW4Fd8/flatage.gif)
+[![Mario.gif](https://i.postimg.cc/MpdmKZnd/Mario.gif)](https://postimg.cc/ZWvdwSFd)
 
 </div>
 <h2 align="center"> Estudante de Ciência da Computação - UNIMAR :books: </h2>
