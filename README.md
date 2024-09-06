@@ -32,11 +32,11 @@ Me chamo Raul, curso Ciência da Computação, gosto de jogar, conversar e apren
 
 
 ## :bar_chart: Status
-<a>
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Raul-Mozart&layout=compact&langs_count=8&card_width=240&theme=tokyonight" />
+<a href="">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Raul-Mozart&layout=compact&langs_count=8&card_width=200&theme=tokyonight" />
 </a>
-<a>
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Raul-Mozart&theme=tokyonight" />
+<a href="">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Raul-Mozart&theme=tokyonight&card_width=300" />
 </a>
 
 
