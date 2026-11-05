@@ -1,4 +1,10 @@
 <h1 align="center">Olá, eu sou o Raul! 👋</h1>
+<div align="center">
+
+[![Mario.gif](https://i.postimg.cc/MpdmKZnd/Mario.gif)](https://postimg.cc/ZWvdwSFd)
+
+</div>
+
 <h3 align="center">Assistente de Sistemas ERP TOTVS · Construo integrações e agentes com IA</h3>
 
 <div align="center">
