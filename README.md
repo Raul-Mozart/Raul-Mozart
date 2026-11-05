@@ -19,11 +19,13 @@ Estou concluindo Ciência da Computação na UNIMAR e trabalho como Assistente d
 
 ## 🤖 O que construo com IA
 **Servidor MCP para o ERP Protheus (ADVPL)**
-A TOTVS não oferece integração MCP, então construí uma do zero, em ADVPL, rodando como serviço REST dentro do próprio Protheus. Com ela, o Claude consulta dados do Protheus e, por meio de um fonte que consome a API REST do VarejOnline, também os dados do varejo.
+A TOTVS não oferece integração MCP, então arquitetei e construí com o Claude Code um servidor MCP em ADVPL, rodando dentro do próprio Protheus. Com ele, a IA consulta o banco do Protheus e a API do PDV (VarejOnline) somente em modo leitura, com a validação imposta no próprio código. Entrou em produção 9 dias após a primeira versão e hoje é usado por 4 pessoas da TI.
 
-- Análise do fechamento mensal: de cerca de 27 horas para algo entre 3 e 13 horas
-- Chamados que levavam horas ou dias de análise agora são diagnosticados em minutos, com causa, solução e evidências
-- Customização de regras de alçada financeira estimada em uma semana, entregue em uma tarde
+Resultados com IA aplicada ao ERP:
+- Análise do fechamento contábil e fiscal: de cerca de 27 h para 3 a 4 h por mês
+- Chamados: diagnóstico de erros de 4 a 9 h para cerca de 1 h, e customizações de ~1 semana para 1 a 2 dias
+- Alçada de aprovação de títulos a pagar desenvolvida em 2 dias; na validação em produção, identifiquei 231 títulos com falha de liberação
+- Cerca de 45 h economizadas por mês
 
 *O código é da empresa e não é público.*
 
@@ -38,7 +40,6 @@ A TOTVS não oferece integração MCP, então construí uma do zero, em ADVPL, r
 
 ### ⚙️ Back-End e ERP
 ![](https://img.shields.io/badge/ADVPL-323232?style=flat-square&logo=totvs)
-![](https://img.shields.io/badge/NODE.JS-323232?style=flat-square&logo=nodedotjs)
 ![](https://img.shields.io/badge/PYTHON-323232?style=flat-square&logo=python)
 ![](https://img.shields.io/badge/C%23-323232?style=flat-square&logo=dotnet)
 ![](https://img.shields.io/badge/API_REST-323232?style=flat-square&logo=postman)
