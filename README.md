@@ -19,13 +19,12 @@ Estou concluindo Ciência da Computação na UNIMAR e trabalho como Assistente d
 
 ## 🤖 O que construo com IA
 **Servidor MCP para o ERP Protheus (ADVPL)**
-A TOTVS não oferece integração MCP, então arquitetei e construí com o Claude Code um servidor MCP em ADVPL, rodando dentro do próprio Protheus. Com ele, a IA consulta o banco do Protheus e a API do PDV (VarejOnline) somente em modo leitura, com a validação imposta no próprio código. Entrou em produção 9 dias após a primeira versão e hoje é usado por 4 pessoas da TI.
+A TOTVS não oferece integração MCP, então arquitetei e construí com o Claude Code um servidor MCP em ADVPL, rodando dentro do próprio Protheus. Com ele, a IA consulta o banco do Protheus e a API do PDV (VarejOnline) somente em modo leitura, com a validação imposta no próprio código. Hoje ele é usado pela equipe de TI.
 
-Resultados com IA aplicada ao ERP:
-- Análise do fechamento contábil e fiscal: de cerca de 27 h para 3 a 4 h por mês
-- Chamados: diagnóstico de erros de 4 a 9 h para cerca de 1 h, e customizações de ~1 semana para 1 a 2 dias
-- Alçada de aprovação de títulos a pagar desenvolvida em 2 dias; na validação em produção, identifiquei 231 títulos com falha de liberação
-- Cerca de 45 h economizadas por mês
+Com IA aplicada ao ERP:
+- a análise do fechamento contábil e fiscal passou a ser feita em uma fração do tempo;
+- o diagnóstico de chamados e as customizações ficaram muito mais rápidos, sempre com a causa validada no dado real;
+- desenvolvi a alçada de aprovação de títulos a pagar conforme o pedido de compra, um controle que não existia.
 
 *O código é da empresa e não é público.*
 
